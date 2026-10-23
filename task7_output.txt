@@ -1,0 +1,29 @@
+Student ID: 230103316
+CPU: Apple M2
+Logical cores: 8
+Physical cores: 8
+Array size: 30,000,000
+Data type: float64
+Repetitions: 3
+
+KERNEL A: MEMORY-BOUND
+Cores     Wall Time (ms)      Speedup        Efficiency     
+------------------------------------------------------------
+1         17.93               1.00           100.00        %
+2         10.49               1.71           85.46         %
+8         10.22               1.75           21.94         %
+
+KERNEL B: COMPUTE-BOUND
+Cores     Wall Time (ms)      Speedup        Efficiency     
+------------------------------------------------------------
+1         249.05              1.00           100.00        %
+2         128.15              1.94           97.17         %
+8         55.16               4.52           56.44         %
+
+SCALING ANALYSIS
+Memory kernel speedup:  1.75x
+Compute kernel speedup: 4.52x
+Kernel A has lower scaling efficiency.
+Memory bandwidth saturation is a possible cause.
+Memory kernel continued improving up to max cores.
+Benchmark completed successfully.
