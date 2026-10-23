@@ -1,0 +1,13 @@
+Student ID: 230103316
+OS: Darwin
+Logical cores: 8
+Parallel workers: 4
+Total items: 1000
+Workload: sleep(0.0001 * (i % 20))
+
+Strategy            Wall Time (ms)      Completion Delta (ms)    
+-----------------------------------------------------------------
+Static              301.86              16.53                    
+Dynamic             298.48              2.38                     
+
+Speedup (Static/Dynamic): 1.01x

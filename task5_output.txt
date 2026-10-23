@@ -1,0 +1,21 @@
+Student ID: 230103316
+CPU: Apple M2
+Physical cores: 8
+Logical cores: 8
+Workers: 8
+Operation: y[i] = 2.5 * x[i] + 1.5
+Repeats: 7
+
+N            Serial (ms)     Parallel (ms)    Speedup     Winner      
+----------------------------------------------------------------------
+100          0.0005          0.1077           0.00        Serial      
+1000         0.0010          0.0873           0.01        Serial      
+10000        0.0064          0.0859           0.07        Serial      
+100000       0.0532          0.1123           0.47        Serial      
+1000000      0.4880          0.2603           1.88        Parallel    
+10000000     4.8459          2.8155           1.72        Parallel    
+
+CROSSOVER ANALYSIS
+Parallel becomes faster between N = 100,000 and N = 1,000,000
+
+Benchmark completed successfully.
