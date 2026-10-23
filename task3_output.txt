@@ -1,0 +1,9 @@
+Student ID: 230103316
+OS: Darwin
+CPU: Apple M2
+Physical cores: 8
+Iterations per worker: 50,000,000
+
+Unpadded Shared: 8831.67 ms
+Padded/Local:   1794.18 ms
+Execution Ratio: 4.92x
