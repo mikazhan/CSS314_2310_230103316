@@ -1,0 +1,24 @@
+Student ID: 230103316
+OS: Darwin
+CPU: Apple M2
+Logical cores: 8
+Threads: 4
+Increments per thread: 2,000,000
+
+UNSAFE VERSION (WITHOUT LOCK)
+Expected final value: 8,000,000
+Actual final value:   8,000,000
+Lost updates:         0
+Lost percentage:      0.00%
+Wall time:            442.28 ms
+
+SAFE VERSION (WITH LOCK)
+Expected final value: 8,000,000
+Actual final value:   8,000,000
+Lost updates:         0
+Wall time:            972.46 ms
+
+SYNCHRONIZATION OVERHEAD
+Time penalty: 530.18 ms
+Time ratio:   2.20x
+Correct result: True
