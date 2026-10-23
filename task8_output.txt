@@ -1,0 +1,26 @@
+Student ID: 230103316
+CPU: Apple M2
+Logical cores: 8
+Physical cores: 8
+Threads: 8
+Matrix size: 1024 x 1024
+Data type: float64
+Repeats: 3
+
+Method              Wall Time (ms)      Speedup        
+-------------------------------------------------------
+Non-Tiled           43.28               1.00           
+Tiled 16x16         132.89              0.33           
+Tiled 64x64         123.82              0.35           
+
+VALIDATION
+Non-Tiled Correct: True
+Tiled 16x16 Correct: True
+Tiled 64x64 Correct: True
+
+PERFORMANCE ANALYSIS
+Fastest method: Non-Tiled
+Best runtime: 43.28 ms
+Best speedup: 1.00x
+
+Benchmark completed successfully.
