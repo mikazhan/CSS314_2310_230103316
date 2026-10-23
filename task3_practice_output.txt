@@ -1,0 +1,17 @@
+Student ID: 230103316
+CPU: Apple M2
+Logical cores: 8
+Physical cores: 8
+Array size: 2,000,000
+Data type: int64
+Workers: 8
+Repeats: 5
+
+Serial Time (ms)    Parallel Time (ms)    Speedup     Verification   
+----------------------------------------------------------------------
+0.7531              0.9680                0.78        PASS           
+
+Serial final sum:   10995133
+Parallel final sum: 10995133
+Verification Status: PASS
+Benchmark completed successfully.

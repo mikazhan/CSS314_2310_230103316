@@ -1,0 +1,14 @@
+Student ID: 230103316
+CPU: Apple M2
+Logical cores: 8
+Physical cores: 8
+Matrix size: 8000 x 8000
+Data type: float64
+
+Mode A (Row-Major):    41.49 ms
+Mode B (Column-Major): 56.42 ms
+Cache Penalty Factor:  1.36x
+
+Row Sum: 31999843.386571
+Column Sum: 31999843.386570
+Results Match: True
