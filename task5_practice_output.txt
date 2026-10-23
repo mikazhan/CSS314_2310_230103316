@@ -1,0 +1,22 @@
+Student ID: 230103316
+CPU: Apple M2
+Logical cores: 8
+Total tasks: 10,000
+Hash repetitions per task: 500
+Input size: 1024 bytes
+Benchmark runs: 3
+
+Pool Size      Execution Time (ms)      Speedup        Status              
+---------------------------------------------------------------------------
+1              1883.83                  1.00           BASELINE            
+4              1838.72                  1.02           IMPROVING           
+8              1849.66                  1.02           WORSENING           
+16             1873.93                  1.01           WORSENING           
+32             1871.07                  1.01           IMPROVING           
+128            1954.13                  0.96           WORSENING           
+256            1990.56                  0.95           WORSENING           
+
+OVERSUBSCRIPTION ANALYSIS
+First observed worsening: 8 threads
+
+Benchmark completed successfully.
