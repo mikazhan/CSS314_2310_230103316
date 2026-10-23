@@ -1,0 +1,17 @@
+Student ID: 230103316
+OS: Darwin 25.4.0
+CPU: arm
+Logical cores: 8
+Array size: 20000000
+Data type: float64
+Parallelizable fraction: 0.95
+
+Cores     Wall Time (ms)      Speedup        Amdahl Upper Bound  
+-----------------------------------------------------------------
+1         1459.99             1.00           1.00                
+2         858.51              1.70           1.90                
+4         636.81              2.29           3.48                
+8         653.07              2.24           5.93                
+16        923.99              1.58           9.14                
+
+Array sum: 10000815.050412
