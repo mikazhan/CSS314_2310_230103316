@@ -1,0 +1,13 @@
+Student ID: 230103316
+CPU: Apple M2
+Logical cores: 8
+Data type: float64
+Repetitions: 3
+
+N              Pipe IPC (ms)       Shared Memory (ms)    Ratio       
+---------------------------------------------------------------------
+100000         1.047               0.122                 8.60        x
+1000000        18.028              0.135                 133.62      x
+10000000       91.311              0.166                 551.59      x
+
+Benchmark completed successfully.
