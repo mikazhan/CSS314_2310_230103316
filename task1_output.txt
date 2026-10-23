@@ -1,0 +1,9 @@
+Student ID: 230103316
+OS: Darwin 25.4.0
+CPU: Apple M2
+Logical cores: 8
+Array size: 20000000
+Data type: float64
+Sum: 10000815.050412
+Standard deviation: 0.288683
+Serial execution time: 4979.11 ms
